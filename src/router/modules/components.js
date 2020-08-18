@@ -30,12 +30,12 @@ const componentsRouter = {
       name: 'TinymceDemo',
       meta: { title: 'tinymce' }
     },
-    {
-      path: 'markdown',
-      component: () => import('@/views/components-demo/markdown'),
-      name: 'MarkdownDemo',
-      meta: { title: 'markdown' }
-    },
+    // {
+    //   path: 'markdown',
+    //   component: () => import('@/views/components-demo/markdown'),
+    //   name: 'MarkdownDemo',
+    //   meta: { title: 'markdown' }
+    // },
     // {
     //   path: 'json-editor',
     //   component: () => import('@/views/components-demo/json-editor'),
@@ -72,12 +72,12 @@ const componentsRouter = {
     //   name: 'CountToDemo',
     //   meta: { title: 'countTo' }
     // },
-    {
-      path: 'mixin',
-      component: () => import('@/views/components-demo/mixin'),
-      name: 'ComponentMixinDemo',
-      meta: { title: 'componentMixin' }
-    },
+    // {
+    //   path: 'mixin',
+    //   component: () => import('@/views/components-demo/mixin'),
+    //   name: 'ComponentMixinDemo',
+    //   meta: { title: 'componentMixin' }
+    // },
     {
       path: 'back-to-top',
       component: () => import('@/views/components-demo/back-to-top'),
