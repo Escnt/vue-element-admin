@@ -13,6 +13,18 @@ const componentsRouter = {
   },
   children: [
     {
+      path: 'button',
+      component: () => import('@/views/button/button'),
+      name: 'Button',
+      meta: { title: '按钮' }
+    },
+    {
+      path: 'form',
+      component: () => import('@/views/form/form'),
+      name: 'form',
+      meta: { title: '表单' }
+    },
+    {
       path: 'tinymce',
       component: () => import('@/views/components-demo/tinymce'),
       name: 'TinymceDemo',
@@ -24,42 +36,42 @@ const componentsRouter = {
       name: 'MarkdownDemo',
       meta: { title: 'markdown' }
     },
-    {
-      path: 'json-editor',
-      component: () => import('@/views/components-demo/json-editor'),
-      name: 'JsonEditorDemo',
-      meta: { title: 'jsonEditor' }
-    },
-    {
-      path: 'split-pane',
-      component: () => import('@/views/components-demo/split-pane'),
-      name: 'SplitpaneDemo',
-      meta: { title: 'splitPane' }
-    },
-    {
-      path: 'avatar-upload',
-      component: () => import('@/views/components-demo/avatar-upload'),
-      name: 'AvatarUploadDemo',
-      meta: { title: 'avatarUpload' }
-    },
-    {
-      path: 'dropzone',
-      component: () => import('@/views/components-demo/dropzone'),
-      name: 'DropzoneDemo',
-      meta: { title: 'dropzone' }
-    },
+    // {
+    //   path: 'json-editor',
+    //   component: () => import('@/views/components-demo/json-editor'),
+    //   name: 'JsonEditorDemo',
+    //   meta: { title: 'jsonEditor' }
+    // },
+    // {
+    //   path: 'split-pane',
+    //   component: () => import('@/views/components-demo/split-pane'),
+    //   name: 'SplitpaneDemo',
+    //   meta: { title: 'splitPane' }
+    // },
+    // {
+    //   path: 'avatar-upload',
+    //   component: () => import('@/views/components-demo/avatar-upload'),
+    //   name: 'AvatarUploadDemo',
+    //   meta: { title: 'avatarUpload' }
+    // },
+    // {
+    //   path: 'dropzone',
+    //   component: () => import('@/views/components-demo/dropzone'),
+    //   name: 'DropzoneDemo',
+    //   meta: { title: 'dropzone' }
+    // },
     {
       path: 'sticky',
       component: () => import('@/views/components-demo/sticky'),
       name: 'StickyDemo',
       meta: { title: 'sticky' }
     },
-    {
-      path: 'count-to',
-      component: () => import('@/views/components-demo/count-to'),
-      name: 'CountToDemo',
-      meta: { title: 'countTo' }
-    },
+    // {
+    //   path: 'count-to',
+    //   component: () => import('@/views/components-demo/count-to'),
+    //   name: 'CountToDemo',
+    //   meta: { title: 'countTo' }
+    // },
     {
       path: 'mixin',
       component: () => import('@/views/components-demo/mixin'),
@@ -83,19 +95,19 @@ const componentsRouter = {
       component: () => import('@/views/components-demo/drag-select'),
       name: 'DragSelectDemo',
       meta: { title: 'dragSelect' }
-    },
-    {
-      path: 'dnd-list',
-      component: () => import('@/views/components-demo/dnd-list'),
-      name: 'DndListDemo',
-      meta: { title: 'dndList' }
-    },
-    {
-      path: 'drag-kanban',
-      component: () => import('@/views/components-demo/drag-kanban'),
-      name: 'DragKanbanDemo',
-      meta: { title: 'dragKanban' }
     }
+    // {
+    //   path: 'dnd-list',
+    //   component: () => import('@/views/components-demo/dnd-list'),
+    //   name: 'DndListDemo',
+    //   meta: { title: 'dndList' }
+    // },
+    // {
+    //   path: 'drag-kanban',
+    //   component: () => import('@/views/components-demo/drag-kanban'),
+    //   name: 'DragKanbanDemo',
+    //   meta: { title: 'dragKanban' }
+    // }
   ]
 }
 
