@@ -30,6 +30,48 @@ const componentsRouter = {
       name: 'TinymceDemo',
       meta: { title: 'tinymce' }
     },
+
+    {
+      path: 'step',
+      component: () =>
+        import('@/views/components-demo/step'),
+      name: 'stepDemo',
+      meta: { title: 'step' }
+    },
+    {
+      path: 'dialog',
+      component: () =>
+        import('@/views/components-demo/dialog'),
+      name: 'dialogDemo',
+      meta: { title: 'dialog' }
+    },
+    {
+      path: 'card',
+      component: () =>
+        import('@/views/components-demo/card'),
+      name: 'cardDemo',
+      meta: { title: 'card' }
+    },
+    {
+      path: 'timeLine',
+      component: () =>
+        import('@/views/components-demo/timeLine'),
+      name: 'timeLineDemo',
+      meta: { title: 'timeLine' }
+    },
+    {
+      path: 'deawer',
+      component: () => import('@/views/components-demo/deawer'),
+      name: 'deawerDemo',
+      meta: { title: 'deawer' }
+    },
+    {
+      path: 'image',
+      component: () =>
+        import('@/views/components-demo/image'),
+      name: 'imageDemo',
+      meta: { title: 'image' }
+    },
     // {
     //   path: 'markdown',
     //   component: () => import('@/views/components-demo/markdown'),
