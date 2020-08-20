@@ -72,6 +72,13 @@ const componentsRouter = {
       name: 'imageDemo',
       meta: { title: 'image' }
     },
+    {
+      path: 'loading',
+      component: () =>
+        import('@/views/components-demo/loading'),
+      name: 'loadingDemo',
+      meta: { title: 'loading' }
+    },
     // {
     //   path: 'markdown',
     //   component: () => import('@/views/components-demo/markdown'),
