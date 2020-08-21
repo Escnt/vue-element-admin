@@ -60,10 +60,10 @@ const componentsRouter = {
       meta: { title: 'timeLine' }
     },
     {
-      path: 'deawer',
-      component: () => import('@/views/components-demo/deawer'),
-      name: 'deawerDemo',
-      meta: { title: 'deawer' }
+      path: 'drawer',
+      component: () => import('@/views/components-demo/drawer'),
+      name: 'drawerDemo',
+      meta: { title: 'drawer' }
     },
     {
       path: 'image',
@@ -78,6 +78,13 @@ const componentsRouter = {
         import('@/views/components-demo/loading'),
       name: 'loadingDemo',
       meta: { title: 'loading' }
+    },
+    {
+      path: 'anchor',
+      component: () =>
+        import('@/views/components-demo/anchor-point'),
+      name: 'anchor',
+      meta: { title: 'anchor' }
     },
     // {
     //   path: 'markdown',
@@ -94,7 +101,7 @@ const componentsRouter = {
     // {
     //   path: 'split-pane',
     //   component: () => import('@/views/components-demo/split-pane'),
-    //   name: 'SplitpaneDemo',
+    //   name: 'SplitPaneDemo',
     //   meta: { title: 'splitPane' }
     // },
     // {
